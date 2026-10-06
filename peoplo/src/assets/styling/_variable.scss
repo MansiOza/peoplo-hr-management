@@ -1,0 +1,73 @@
+$white: #fff;
+$black: #000;
+
+//Primary Colors
+$primary: #5B6CFF;
+$secondary: #4BD0F2;
+$tertiary: #8FE8C8CC;
+
+//Additional Colors
+$violet: #A78BFA;
+$mint: #3ED2A0;
+$amber: #FFB547;
+$rose: #FF6B8A;
+
+//Blob Bg
+$mesh-blue: #BFD0FF;
+$mesh-lavender: rgba(226, 212, 255, 0.90);
+$mesh-mint: rgba(196, 241, 230, 0.90);
+$mesh-peach: rgba(255, 224, 207, 0.90);
+$mesh-sky: rgba(207, 230, 255, 0.90);
+$mesh-lilac: rgba(234, 217, 255, 0.90);
+
+//Text Colors
+$text-primary: #1E2235;
+$text-secondary: #6B7086;
+$text-tertiary: #9096AD;
+$text-nav: #4A4F66;
+
+//Gradient Colors
+$primary-gradient: linear-gradient(127deg, $primary 0%, $secondary 71.43%);
+$secondary-gradient: linear-gradient(90deg, rgba(91, 108, 255, 0.90) 0%, rgba(75, 208, 242, 0.80) 55%, rgba(143, 232, 200, 0.80) 100%);
+
+//Background Colors
+$global-bg: #EEF2FB;
+$gray-bg: rgba(30, 34, 53, 0.04);
+$blue-bg: rgba(91, 108, 255, 0.05);
+$purple-bg: rgba(91, 108, 255, 0.14);
+$white-bg: rgba(255, 255, 255, 0.62);
+
+//Border Color:
+$border-default: #E3E6F2;
+
+//Shadow Variables
+$shadow-default: 0 12px 32px -6px rgba(51, 64, 128, 0.07);
+$shadow-purple: 0 8px 20px -4px rgba(91, 108, 255, 0.35);
+$shadow-active-nav: 0 6px 16px -4px rgba(51, 64, 128, 0.10);
+$input-shadow: 0 0 0 4px rgba(91, 108, 255, 0.15);
+$shadow-primary: 0 10px 24px -6px rgba(91, 108, 255, 0.35);
+
+//Status
+$success-bg: #DDF6EE;
+$success: #0F8F6A;
+
+//Avatar Gradient Background
+$avatar-bg-indigo: linear-gradient(127deg, #5B6CFF 0%, #8EA0FF 71.43%);
+$avatar-bg-rose: linear-gradient(127deg, #FF6B8A 0%, #FFA3B5 71.43%);
+$avatar-bg-mint: linear-gradient(127deg, #3ED2A0 0%, #8FE8C8 71.43%);
+$avatar-bg-amber: linear-gradient(127deg, #FFB547 0%, #FFD08A 71.43%);
+$avatar-bg-coral: linear-gradient(127deg, #FF8A65 0%, #FFC2A8 71.43%);
+$avatar-bg-pink: linear-gradient(90deg, #FF6B8A 0%, #A78BFA 100%);
+$avatar-bg-blue: linear-gradient(127deg, #4BD0F2 0%, #9BE6FA 71.43%);
+$avatar-bg-dark-blue: linear-gradient(127deg, #5B6CFF 0%, #4BD0F2 71.43%);
+$avatar-bg-gray: linear-gradient(127deg, #34495E 0%, #6B7C93 71.43%);
+$avatar-bg-golden: linear-gradient(90deg, #FFB547 0%, #FF8A65 100%);
+$avatar-bg-sunset: linear-gradient(127deg, #FFB199 0%, #FF6A88 71.43%);
+
+//Viewport
+$extra-large: 1600px;
+$large: 1199px;
+$medium: 900px;
+$small: 767px;
+$extra-small: 575px;
+$extra-extra-small: 420px;

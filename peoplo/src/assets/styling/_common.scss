@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./variable";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Geist", sans-serif;
+    background: $global-bg;
+    color: $text-primary;
+
+    &:has(.login) {
+        background: $white;
+        .blob {
+            display: none;
+        }
+    }
+
+    .blob {
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        z-index: -1;
+        .blob1,
+        .blob2,
+        .blob3,
+        .blob4,
+        .blob5,
+        .blob6 {
+            position: absolute;
+            filter: blur(70px);
+            border-radius: 620px;
+            z-index: -1;
+        }
+
+        .blob1 {
+            width: 620px;
+            height: 620px;
+            left: -120px;
+            top: -160px;
+            background: $mesh-blue;
+        }
+        .blob2 {
+            width: 560px;
+            height: 560px;
+            right: 320px;
+            top: -220px;
+            background: $mesh-lavender;
+        }
+        .blob3 {
+            width: 520px;
+            height: 520px;
+            right: -80px;
+            top: -80px;
+            background: $mesh-mint;
+        }
+        .blob4 {
+            width: 520px;
+            height: 520px;
+            right: -200px;
+            bottom: 45.6px;
+            background: $mesh-peach;
+        }
+        .blob5 {
+            width: 560px;
+            height: 560px;
+            left: 300px;
+            bottom: -134.4px;
+            background: $mesh-sky;
+        }
+        .blob6 {
+            width: 420px;
+            height: 420px;
+            right: 200px;
+            bottom: -74.4px;
+            background: $mesh-lilac;
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}

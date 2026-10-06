@@ -1,0 +1,71 @@
+@import "../../assets/styling/variable";
+
+.login {
+    display: flex;
+    gap: 20px;
+    height: calc(100dvh - 40px);
+    .left {
+        border-radius: 28px;
+        background: var(--Gradient-Primary, linear-gradient(127deg, #5B6CFF 0%, #4BD0F2 71.43%));
+        width: 50%;
+        position: relative;
+        padding: 44px 48px;
+        &:before {
+            content: "";
+            background-image: url(../../assets/imgs/bg-props/Grid.png);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+        }
+        .logo {
+            margin-bottom: 68px;
+        }
+        .headline {
+            color: $white;
+            h2 {
+                font-size: 52px;
+                font-weight: 600;
+                line-height: 56px;
+                letter-spacing: -2.08px;
+                margin-bottom: 14px;
+            }
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+    .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        .content {
+            max-width: 390px;
+            width: 100%;
+        }
+        h2 {
+            font-size: 34px;
+            font-weight: 600;
+            letter-spacing: -0.68px;
+            margin-bottom: 6px;
+        }
+        p {
+            color: $text-secondary;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
