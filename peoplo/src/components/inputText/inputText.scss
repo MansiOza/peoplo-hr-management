@@ -1,0 +1,27 @@
+@import "../../assets/styling/variable";
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    .label {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .form-control {
+        height: 48px;
+        padding: 0 14px;
+        border-radius: 14px;
+        border: 1px solid $border-default;
+        &:focus {
+            box-shadow: $input-shadow;
+            border: 1.2px solid $primary;
+            outline: none;
+        }
+    }
+    .error {
+        font-size: 13px;
+        color: red;
+        font-weight: 600;
+    }
+}
