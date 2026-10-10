@@ -1,0 +1,126 @@
+{
+  "id": "cand_006",
+  "name": "Isla Reid",
+  "initials": "IR",
+  "avatarColor": "#34D399",
+  "stage": "interview",
+  "currentTitle": "Lead Designer",
+  "currentCompany": "Starling Bank",
+  "location": "Manchester",
+  "email": "isla.reid@email.com",
+  "appliedAt": "2026-09-14",
+  "source": "LinkedIn",
+  "matchPercent": 94,
+  "job": {
+    "id": "job_101",
+    "title": "Senior Product Designer"
+  },
+  "scorecards": {
+    "expectedCount": 4,
+    "items": [
+      {
+        "id": "score_01",
+        "interviewer": { "id": "emp_011", "name": "Mark Lee", "initials": "ML", "avatarColor": "#475569" },
+        "rating": 5,
+        "recommendation": "strong_yes",
+        "comment": "Exceptional systems thinking; led Starling's design system migration.",
+        "submittedAt": "2026-09-29"
+      },
+      {
+        "id": "score_02",
+        "interviewer": { "id": "emp_001", "name": "Mansi Oza", "initials": "MO", "avatarColor": "#6C63FF" },
+        "rating": 4,
+        "recommendation": "yes",
+        "comment": "Great craft and facilitation. Wants more exposure to research.",
+        "submittedAt": "2026-09-30"
+      },
+      {
+        "id": "score_03",
+        "interviewer": { "id": "emp_003", "name": "Priya Nair", "initials": "PN", "avatarColor": "#34D399" },
+        "rating": 4,
+        "recommendation": "yes",
+        "comment": "Clear communicator, strong brand sense.",
+        "submittedAt": "2026-10-01"
+      }
+    ]
+  },
+  "pipeline": [
+    {
+      "key": "applied",
+      "label": "Applied",
+      "status": "completed",
+      "date": "2026-09-14",
+      "by": null,
+      "note": null
+    },
+    {
+      "key": "screening_call",
+      "label": "Screening call",
+      "status": "completed",
+      "date": "2026-09-17",
+      "by": { "id": "emp_010", "name": "Sophie Turner" },
+      "note": null
+    },
+    {
+      "key": "portfolio_review",
+      "label": "Portfolio review",
+      "status": "completed",
+      "date": "2026-09-21",
+      "by": null,
+      "note": "passed"
+    },
+    {
+      "key": "panel_interview",
+      "label": "Panel interview",
+      "status": "current",
+      "date": "2026-10-10T11:00:00",
+      "by": null,
+      "note": null
+    },
+    {
+      "key": "offer",
+      "label": "Offer",
+      "status": "upcoming",
+      "date": null,
+      "by": null,
+      "note": null
+    }
+  ],
+  "skillsMatch": [
+    { "name": "Design systems", "percent": 98 },
+    { "name": "Figma", "percent": 95 },
+    { "name": "Prototyping", "percent": 90 },
+    { "name": "User research", "percent": 72 },
+    { "name": "Accessibility", "percent": 88 }
+  ],
+  "cv": {
+    "fileName": "Isla_Reid_CV.pdf",
+    "url": "/files/Isla_Reid_CV.pdf"
+  },
+  "experience": [
+    {
+      "id": "exp_01",
+      "title": "Lead Product Designer",
+      "company": "Starling Bank",
+      "startYear": 2022,
+      "endYear": null,
+      "description": "Led design system (140 components) and the business banking app redesign."
+    },
+    {
+      "id": "exp_02",
+      "title": "Senior Designer",
+      "company": "BBC",
+      "startYear": 2019,
+      "endYear": 2022,
+      "description": "iPlayer onboarding and accessibility programme (WCAG AA)."
+    },
+    {
+      "id": "exp_03",
+      "title": "Product Designer",
+      "company": "Monzo",
+      "startYear": 2017,
+      "endYear": 2019,
+      "description": "Savings pots and the first version of the budgeting tools."
+    }
+  ]
+}

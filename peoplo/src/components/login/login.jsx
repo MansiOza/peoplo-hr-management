@@ -3,11 +3,14 @@ import TextInput from "../inputText/inputText";
 import "./login.scss";
 import LogoWhite from "../../assets/imgs/logo/logo-white.svg"
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
+
+    const navigate = useNavigate();
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -27,6 +30,10 @@ function Login() {
         }
 
         setError(newError);
+
+        if(Object.keys(newError).length === 0) {
+            navigate("/dashboard")
+        }
     }
 
     return(

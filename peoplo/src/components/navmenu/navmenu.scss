@@ -25,14 +25,34 @@
             flex-direction: column;
             gap: 2px;
             li {
-                padding: 11px 12px 11px 14px;
-                border-radius: 14px;
                 a {
                     color: $text-nav;
                     text-decoration: none;
                     display: flex;
                     align-items: center;
                     gap: 12px;
+                    padding: 11px 12px 11px 14px;
+                    border-radius: 14px;
+                    &:hover {
+                        background: $white;
+                    }
+    
+                    &.active {
+                        box-shadow: $shadow-active-nav;
+                        background: $white;
+                        a {
+                            color: $text-primary;
+                            font-weight: 600;
+                            svg {
+                                path {
+                                    stroke: $primary;
+                                }
+                            }
+                            &:hover {
+    
+                            }
+                        }
+                    }
                     svg {
                         path {
 
@@ -51,26 +71,7 @@
                     }
                 }
 
-                &:hover {
-                    background: $white;
-                }
-
-                &.active {
-                    box-shadow: $shadow-active-nav;
-                    background: $white;
-                    a {
-                        color: $text-primary;
-                        font-weight: 600;
-                        svg {
-                            path {
-                                stroke: $primary;
-                            }
-                        }
-                        &:hover {
-
-                        }
-                    }
-                }
+                
             }
         }
     }
