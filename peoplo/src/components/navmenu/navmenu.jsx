@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./navmenu.scss";
 
 function Navmenu() {
@@ -7,7 +8,7 @@ function Navmenu() {
                 <p className="title">Menu</p>
                 <ul>
                     <li>
-                        <a href="">
+                        <NavLink to="/dashboard">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <path d="M6.33333 2.375H3.95833C3.08388 2.375 2.375 3.08388 2.375 3.95833V7.91667C2.375 8.79112 3.08388 9.5 3.95833 9.5H6.33333C7.20778 9.5 7.91667 8.79112 7.91667 7.91667V3.95833C7.91667 3.08388 7.20778 2.375 6.33333 2.375Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M15.0417 2.375H12.6667C11.7922 2.375 11.0833 3.08388 11.0833 3.95833V4.75C11.0833 5.62445 11.7922 6.33333 12.6667 6.33333H15.0417C15.9161 6.33333 16.625 5.62445 16.625 4.75V3.95833C16.625 3.08388 15.9161 2.375 15.0417 2.375Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -15,10 +16,10 @@ function Navmenu() {
                                 <path d="M6.33333 12.667H3.95833C3.08388 12.667 2.375 13.3759 2.375 14.2503V15.042C2.375 15.9164 3.08388 16.6253 3.95833 16.6253H6.33333C7.20778 16.6253 7.91667 15.9164 7.91667 15.042V14.2503C7.91667 13.3759 7.20778 12.667 6.33333 12.667Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Dashboard
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="">
+                        <NavLink to="/employee">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <path d="M12.6667 16.625V15.0417C12.6667 14.2018 12.333 13.3964 11.7392 12.8025C11.1453 12.2086 10.3398 11.875 9.49999 11.875H4.74999C3.91014 11.875 3.10469 12.2086 2.51082 12.8025C1.91696 13.3964 1.58333 14.2018 1.58333 15.0417V16.625" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M7.12499 8.70833C8.8739 8.70833 10.2917 7.29057 10.2917 5.54167C10.2917 3.79276 8.8739 2.375 7.12499 2.375C5.37609 2.375 3.95833 3.79276 3.95833 5.54167C3.95833 7.29057 5.37609 8.70833 7.12499 8.70833Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -26,35 +27,35 @@ function Navmenu() {
                                 <path d="M12.6667 2.47803C13.3478 2.65243 13.9516 3.04858 14.3827 3.60402C14.8139 4.15946 15.0479 4.8426 15.0479 5.54574C15.0479 6.24887 14.8139 6.93201 14.3827 7.48745C13.9516 8.04289 13.3478 8.43904 12.6667 8.61344" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Employees
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="">
+                        <NavLink to="/recruitment">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <path d="M15.0417 5.5415H3.95833C2.64665 5.5415 1.58333 6.60483 1.58333 7.9165V14.2498C1.58333 15.5615 2.64665 16.6248 3.95833 16.6248H15.0417C16.3533 16.6248 17.4167 15.5615 17.4167 14.2498V7.9165C17.4167 6.60483 16.3533 5.5415 15.0417 5.5415Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M12.6667 16.625V3.95833C12.6667 3.53841 12.4998 3.13568 12.2029 2.83875C11.906 2.54181 11.5033 2.375 11.0833 2.375H7.91666C7.49674 2.375 7.09401 2.54181 6.79708 2.83875C6.50014 3.13568 6.33333 3.53841 6.33333 3.95833V16.625" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Recruitment
                             <span className="new-pill">New</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="">
+                        <NavLink to="/attendance">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <path d="M9.49999 17.4168C13.8722 17.4168 17.4167 13.8724 17.4167 9.50016C17.4167 5.12791 13.8722 1.5835 9.49999 1.5835C5.12774 1.5835 1.58333 5.12791 1.58333 9.50016C1.58333 13.8724 5.12774 17.4168 9.49999 17.4168Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M9.5 4.75V9.5L12.6667 11.0833" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Attendance
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="">
+                        <NavLink to="/leave">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <path d="M14.25 3.1665H4.75C3.43832 3.1665 2.375 4.22983 2.375 5.5415V15.0415C2.375 16.3532 3.43832 17.4165 4.75 17.4165H14.25C15.5617 17.4165 16.625 16.3532 16.625 15.0415V5.5415C16.625 4.22983 15.5617 3.1665 14.25 3.1665Z" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M12.6667 1.5835V4.75016M6.33333 1.5835V4.75016M2.375 7.91683H16.625" stroke="#6B7086" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             Leave
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
                         <a href="">

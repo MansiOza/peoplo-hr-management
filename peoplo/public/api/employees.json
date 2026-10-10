@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "totalEmployees": 1284,
+    "totalDepartments": 6,
+    "totalOffices": 3
+  },
+  "statusCounts": [
+    { "key": "all", "label": "All", "count": 1284 },
+    { "key": "active", "label": "Active", "count": 1086 },
+    { "key": "onboarding", "label": "Onboarding", "count": 38 },
+    { "key": "on_leave", "label": "On leave", "count": 96 },
+    { "key": "probation", "label": "Probation", "count": 64 }
+  ],
+  "filters": {
+    "departments": ["Design", "Engineering", "Marketing", "Sales", "Finance", "Operations", "People"],
+    "locations": ["Manchester", "London", "Leeds", "Remote"]
+  },
+  "pagination": {
+    "page": 1,
+    "pageSize": 12,
+    "totalItems": 1284,
+    "totalPages": 107
+  },
+  "employees": [
+    {
+      "id": "emp_001",
+      "firstName": "Mansi",
+      "lastName": "Oza",
+      "initials": "MO",
+      "avatarUrl": null,
+      "avatarColor": "#6C63FF",
+      "jobTitle": "Product Designer",
+      "department": "Design",
+      "location": "Manchester",
+      "status": "active",
+      "email": "mansi.oza@peoplo.com"
+    },
+    {
+      "id": "emp_002",
+      "firstName": "James",
+      "lastName": "Carter",
+      "initials": "JC",
+      "avatarUrl": null,
+      "avatarColor": "#F5576C",
+      "jobTitle": "Backend Engineer",
+      "department": "Engineering",
+      "location": "Remote",
+      "status": "on_leave",
+      "email": "james.carter@peoplo.com"
+    },
+    {
+      "id": "emp_003",
+      "firstName": "Priya",
+      "lastName": "Nair",
+      "initials": "PN",
+      "avatarUrl": null,
+      "avatarColor": "#34D399",
+      "jobTitle": "Marketing Lead",
+      "department": "Marketing",
+      "location": "London",
+      "status": "active",
+      "email": "priya.nair@peoplo.com"
+    },
+    {
+      "id": "emp_004",
+      "firstName": "Tom",
+      "lastName": "Hughes",
+      "initials": "TH",
+      "avatarUrl": null,
+      "avatarColor": "#FBBF24",
+      "jobTitle": "Sales Executive",
+      "department": "Sales",
+      "location": "Manchester",
+      "status": "active",
+      "email": "tom.hughes@peoplo.com"
+    },
+    {
+      "id": "emp_005",
+      "firstName": "Daniel",
+      "lastName": "Brooks",
+      "initials": "DB",
+      "avatarUrl": null,
+      "avatarColor": "#38BDF8",
+      "jobTitle": "Senior Backend Engineer",
+      "department": "Engineering",
+      "location": "Manchester",
+      "status": "onboarding",
+      "email": "daniel.brooks@peoplo.com"
+    },
+    {
+      "id": "emp_006",
+      "firstName": "Chloe",
+      "lastName": "Evans",
+      "initials": "CE",
+      "avatarUrl": null,
+      "avatarColor": "#A78BFA",
+      "jobTitle": "Account Executive",
+      "department": "Sales",
+      "location": "Leeds",
+      "status": "active",
+      "email": "chloe.evans@peoplo.com"
+    },
+    {
+      "id": "emp_007",
+      "firstName": "Ravi",
+      "lastName": "Patel",
+      "initials": "RP",
+      "avatarUrl": null,
+      "avatarColor": "#3B82F6",
+      "jobTitle": "Financial Analyst",
+      "department": "Finance",
+      "location": "London",
+      "status": "probation",
+      "email": "ravi.patel@peoplo.com"
+    },
+    {
+      "id": "emp_008",
+      "firstName": "Emma",
+      "lastName": "Wilson",
+      "initials": "EW",
+      "avatarUrl": null,
+      "avatarColor": "#FB7185",
+      "jobTitle": "Content Strategist",
+      "department": "Marketing",
+      "location": "Remote",
+      "status": "on_leave",
+      "email": "emma.wilson@peoplo.com"
+    },
+    {
+      "id": "emp_009",
+      "firstName": "Liam",
+      "lastName": "O'Connor",
+      "initials": "LO",
+      "avatarUrl": null,
+      "avatarColor": "#14B8A6",
+      "jobTitle": "Operations Manager",
+      "department": "Operations",
+      "location": "Manchester",
+      "status": "active",
+      "email": "liam.oconnor@peoplo.com"
+    },
+    {
+      "id": "emp_010",
+      "firstName": "Sophie",
+      "lastName": "Turner",
+      "initials": "ST",
+      "avatarUrl": null,
+      "avatarColor": "#EC4899",
+      "jobTitle": "HR Coordinator",
+      "department": "People",
+      "location": "Manchester",
+      "status": "active",
+      "email": "sophie.turner@peoplo.com"
+    },
+    {
+      "id": "emp_011",
+      "firstName": "Mark",
+      "lastName": "Lee",
+      "initials": "ML",
+      "avatarUrl": null,
+      "avatarColor": "#475569",
+      "jobTitle": "Engineering Manager",
+      "department": "Engineering",
+      "location": "London",
+      "status": "active",
+      "email": "mark.lee@peoplo.com"
+    },
+    {
+      "id": "emp_012",
+      "firstName": "Zara",
+      "lastName": "Ahmed",
+      "initials": "ZA",
+      "avatarUrl": null,
+      "avatarColor": "#F97316",
+      "jobTitle": "UX Researcher",
+      "department": "Design",
+      "location": "Remote",
+      "status": "onboarding",
+      "email": "zara.ahmed@peoplo.com"
+    }
+  ]
+}

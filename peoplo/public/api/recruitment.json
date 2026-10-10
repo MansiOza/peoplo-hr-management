@@ -1,0 +1,194 @@
+{
+  "summary": {
+    "openRoles": 17,
+    "totalCandidates": 406,
+    "interviewsToday": 12
+  },
+  "jobs": [
+    { "id": "job_101", "title": "Senior Product Designer" },
+    { "id": "job_102", "title": "Backend Engineer" },
+    { "id": "job_103", "title": "Account Executive" },
+    { "id": "job_104", "title": "Financial Analyst" }
+  ],
+  "selectedJob": {
+    "id": "job_101",
+    "title": "Senior Product Designer",
+    "department": "Design",
+    "location": "Manchester",
+    "workMode": "hybrid",
+    "postedAt": "2026-09-12",
+    "closesAt": "2026-10-10",
+    "stats": {
+      "applicants": 64,
+      "avgMatchScore": 8.1,
+      "avgDaysInStage": 4
+    },
+    "hiringTeam": [
+      { "id": "emp_011", "initials": "ML", "name": "Mark Lee", "avatarColor": "#475569" },
+      { "id": "emp_001", "initials": "MO", "name": "Mansi Oza", "avatarColor": "#6C63FF" },
+      { "id": "emp_010", "initials": "ST", "name": "Sophie Turner", "avatarColor": "#EC4899" }
+    ]
+  },
+  "stages": [
+    {
+      "key": "applied",
+      "label": "Applied",
+      "color": "#4F6BF6",
+      "totalCount": 38,
+      "candidates": [
+        {
+          "id": "cand_001",
+          "name": "Oliver Grant",
+          "initials": "OG",
+          "avatarColor": "#6C63FF",
+          "currentTitle": "Designer",
+          "currentCompany": "Monzo",
+          "skills": ["Figma", "Systems"],
+          "matchPercent": 92,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        },
+        {
+          "id": "cand_002",
+          "name": "Hana Sato",
+          "initials": "HS",
+          "avatarColor": "#F5576C",
+          "currentTitle": "UI Designer",
+          "currentCompany": "Deliveroo",
+          "skills": ["Motion", "UI"],
+          "matchPercent": 87,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        },
+        {
+          "id": "cand_003",
+          "name": "Leo Martin",
+          "initials": "LM",
+          "avatarColor": "#34D399",
+          "currentTitle": "Product Designer",
+          "currentCompany": "Sky",
+          "skills": ["Research"],
+          "matchPercent": 81,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        }
+      ]
+    },
+    {
+      "key": "screening",
+      "label": "Screening",
+      "color": "#A78BFA",
+      "totalCount": 14,
+      "candidates": [
+        {
+          "id": "cand_004",
+          "name": "Maya Brooks",
+          "initials": "MB",
+          "avatarColor": "#FBBF24",
+          "currentTitle": "Senior Designer",
+          "currentCompany": "BBC",
+          "skills": ["Systems", "A11y"],
+          "matchPercent": 90,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        },
+        {
+          "id": "cand_005",
+          "name": "Kofi Mensah",
+          "initials": "KM",
+          "avatarColor": "#38BDF8",
+          "currentTitle": "Designer",
+          "currentCompany": "Ocado",
+          "skills": ["UX", "Figma"],
+          "matchPercent": 84,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        }
+      ]
+    },
+    {
+      "key": "interview",
+      "label": "Interview",
+      "color": "#22C3E6",
+      "totalCount": 7,
+      "candidates": [
+        {
+          "id": "cand_006",
+          "name": "Isla Reid",
+          "initials": "IR",
+          "avatarColor": "#A78BFA",
+          "currentTitle": "Lead Designer",
+          "currentCompany": "Starling",
+          "skills": ["Leadership", "Systems"],
+          "matchPercent": 94,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": {
+            "type": "panel",
+            "scheduledAt": "2026-10-10T11:00:00"
+          }
+        },
+        {
+          "id": "cand_007",
+          "name": "Arjun Rao",
+          "initials": "AR",
+          "avatarColor": "#3B82F6",
+          "currentTitle": "Product Designer",
+          "currentCompany": "Revolut",
+          "skills": ["Fintech", "UI"],
+          "matchPercent": 88,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        }
+      ]
+    },
+    {
+      "key": "offer",
+      "label": "Offer",
+      "color": "#F59E0B",
+      "totalCount": 3,
+      "candidates": [
+        {
+          "id": "cand_008",
+          "name": "Grace Liu",
+          "initials": "GL",
+          "avatarColor": "#FB7185",
+          "currentTitle": "Senior Designer",
+          "currentCompany": "Spotify",
+          "skills": ["Research", "Systems"],
+          "matchPercent": 96,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        }
+      ]
+    },
+    {
+      "key": "hired",
+      "label": "Hired",
+      "color": "#10B981",
+      "totalCount": 2,
+      "candidates": [
+        {
+          "id": "cand_009",
+          "name": "Ben Hughes",
+          "initials": "BH",
+          "avatarColor": "#34D399",
+          "currentTitle": "Designer",
+          "currentCompany": "Auto Trader",
+          "skills": ["UI", "Motion"],
+          "matchPercent": 91,
+          "commentsCount": 0,
+          "hasResume": true,
+          "upcomingInterview": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "reviewCycle": {
+    "id": "cycle_2026_q3",
+    "name": "Q3 2026",
+    "closesAt": "2026-10-15",
+    "totalReviews": 1284,
+    "overallProgressPercent": 68,
+    "steps": [
+      {
+        "key": "self_reviews",
+        "label": "Self reviews",
+        "color": "#4F6BF6",
+        "completed": 1181,
+        "total": 1284,
+        "unit": "reviews",
+        "startsAt": null
+      },
+      {
+        "key": "manager_reviews",
+        "label": "Manager reviews",
+        "color": "#22C3E6",
+        "completed": 873,
+        "total": 1284,
+        "unit": "reviews",
+        "startsAt": null
+      },
+      {
+        "key": "calibration",
+        "label": "Calibration",
+        "color": "#10B981",
+        "completed": 2,
+        "total": 10,
+        "unit": "sessions",
+        "startsAt": null
+      },
+      {
+        "key": "shared_with_employees",
+        "label": "Shared with employees",
+        "color": "#F59E0B",
+        "completed": 0,
+        "total": 1284,
+        "unit": "reviews",
+        "startsAt": "2026-10-10"
+      }
+    ]
+  },
+  "ratingDistribution": {
+    "completedReviews": 873,
+    "maxRating": 5,
+    "averageRating": 3.39,
+    "buckets": [
+      { "rating": 1, "percent": 3, "color": "#FB7185" },
+      { "rating": 2, "percent": 11, "color": "#FBBF24" },
+      { "rating": 3, "percent": 41, "color": "#8B9CF9" },
+      { "rating": 4, "percent": 34, "color": "#5B6CF6" },
+      { "rating": 5, "percent": 11, "color": "#34D399" }
+    ]
+  },
+  "okrs": {
+    "quarter": "Q3",
+    "objectivesCount": 4,
+    "keyResultsCount": 13,
+    "objectives": [
+      {
+        "id": "okr_01",
+        "title": "Build a world-class team",
+        "teams": ["Engineering", "People"],
+        "progressPercent": 78,
+        "status": "on_track",
+        "owners": [
+          { "id": "emp_011", "name": "Mark Lee", "initials": "ML", "avatarColor": "#475569" },
+          { "id": "emp_010", "name": "Sophie Turner", "initials": "ST", "avatarColor": "#EC4899" }
+        ]
+      },
+      {
+        "id": "okr_02",
+        "title": "Grow revenue to £24M ARR",
+        "teams": ["Sales"],
+        "progressPercent": 61,
+        "status": "at_risk",
+        "owners": [
+          { "id": "emp_006", "name": "Chloe Evans", "initials": "CE", "avatarColor": "#A78BFA" },
+          { "id": "emp_004", "name": "Tom Hughes", "initials": "TH", "avatarColor": "#FBBF24" }
+        ]
+      },
+      {
+        "id": "okr_03",
+        "title": "Ship Peoplo mobile app",
+        "teams": ["Engineering", "Design"],
+        "progressPercent": 84,
+        "status": "on_track",
+        "owners": [
+          { "id": "emp_001", "name": "Mansi Oza", "initials": "MO", "avatarColor": "#6C63FF" },
+          { "id": "emp_005", "name": "Daniel Brooks", "initials": "DB", "avatarColor": "#38BDF8" }
+        ]
+      },
+      {
+        "id": "okr_04",
+        "title": "Reduce attrition below 8%",
+        "teams": ["People"],
+        "progressPercent": 42,
+        "status": "behind",
+        "owners": [
+          { "id": "emp_003", "name": "Priya Nair", "initials": "PN", "avatarColor": "#34D399" }
+        ]
+      }
+    ]
+  },
+  "kudos": {
+    "thisWeekCount": 42,
+    "items": [
+      {
+        "id": "kudo_01",
+        "from": { "id": "emp_003", "firstName": "Priya", "initials": "PN", "avatarColor": "#34D399" },
+        "to": { "id": "emp_001", "firstName": "Mansi", "initials": "MO", "avatarColor": "#6C63FF" },
+        "value": "Craft",
+        "message": "Brilliant work on the campaign landing page — shipped in record time!",
+        "createdAt": "2026-10-09T15:20:00"
+      },
+      {
+        "id": "kudo_02",
+        "from": { "id": "emp_011", "firstName": "Mark", "initials": "ML", "avatarColor": "#475569" },
+        "to": { "id": "emp_005", "firstName": "Daniel", "initials": "DB", "avatarColor": "#38BDF8" },
+        "value": "Ownership",
+        "message": "Picked up the payments migration in week one. Superb.",
+        "createdAt": "2026-10-08T10:05:00"
+      },
+      {
+        "id": "kudo_03",
+        "from": { "id": "emp_010", "firstName": "Sophie", "initials": "ST", "avatarColor": "#EC4899" },
+        "to": { "id": "emp_006", "firstName": "Chloe", "initials": "CE", "avatarColor": "#A78BFA" },
+        "value": "Teamwork",
+        "message": "Thanks for mentoring the new sales cohort.",
+        "createdAt": "2026-10-07T17:40:00"
+      }
+    ]
+  }
+}
